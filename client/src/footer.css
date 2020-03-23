@@ -1,0 +1,27 @@
+#footer {
+    grid-area: footer;
+    width: 99vw;
+    height: 500px;
+    background-image: url('Woodbackground-01.JPG');
+    background-size: cover;
+    border-top: 25px solid black;
+    display:flex;
+    align-content: flex-start;
+}
+
+#contact-me {
+    width: 25vw;
+    margin: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+#contact-text {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+    margin-left: 5vw;
+    margin-top:20vh;
+    
+}

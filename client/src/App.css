@@ -1,3 +1,90 @@
-* {
-    color: green;
+#mainContainer{
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "footer footer footer"
 }
+
+
+#header {
+    background-color: black;
+    grid-area: header;
+    width: 99vw;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+#home-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 31vw;
+    height: 50px;
+}
+
+#about-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 31vw;
+    height: 50px;
+}
+
+#portfolio-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 31vw;
+    height: 50px;
+}
+
+#home-button:hover {
+    width: 31.5vw;
+    height: 53px;
+}
+
+#about-button:hover {
+    width: 31.5vw;
+    height: 53px;
+}
+
+#portfolio-button:hover {
+    width: 31.5vw;
+    height: 53px;
+}
+
+#content {
+    grid-area: content;
+    height: 1000px;
+    width: 99vw;
+    background-image: linear-gradient(black, black), url(https://previews.dropbox.com/p/thumb/AAstqbHJ__44NPWnMvjGlvVMjI4eqz3Zse4NXWIHFxSEqqo5FbE2xRy59WVSEmE18uQvN7y_5SNPBZ6aPy6UZrQXLxN-8e6K8zJWoOrLDEDA6vCVxcauSAz2Tr9HhPPABIb3jjLdseP5-lV85BzrZiaB64pXdiEzJSWbfEpZ-neBPxeAdp2Y9iE6tL8e8Qlvr9j38BWEE6lV-B3U1ZI_KqAqzZ_VlEddavA7w0XQSh7Jv69_byqky9g7Uk0lZdSmJw0W60UqIiBPXzOk69dT4_MP1msNN4MCPOzzvuhTLYty3PK681R2nkYjL9y1xWyyQFjH4H6YsDgoovfs6uon1WnhsnUAXNsAjIaS5arMiCX3QQ/p.jpeg?fv_content=true&size_mode=5);
+    background-blend-mode: saturation;
+    
+    background-repeat: no-repeat;
+    position: sticky;
+    
+}
+
+
+
+
+
