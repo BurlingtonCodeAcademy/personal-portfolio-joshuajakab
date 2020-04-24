@@ -1,0 +1,33 @@
+#footer {
+    grid-area: footer;
+    width: 99vw;
+	height: 100px;
+	background-color: black;
+    background-size: cover;
+    border-top: 10px solid white;
+	
+}
+
+#contact-text {
+	font-family: "Covered By Your Grace", cursive;
+	color: white;
+    font-size: 3rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#contact-info {
+	color: white;
+	font-family: "Acme", sans-serif;
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+#email-link {
+	color: white;
+	font-family: "Acme", sans-serif;
+	font-size: 1.3rem;
+	margin: .5rem;
+}
+ 

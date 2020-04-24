@@ -1,0 +1,162 @@
+
+#mainContainer{
+    width: 100%;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "welcome welcome welcome"
+    "header header header"
+    "post post post"
+    "footer footer footer"
+}
+
+h1 {
+    font-family: "Covered By Your Grace", cursive;
+	color: white;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Acme", sans-serif;
+    color: white;
+}
+
+.project-description {
+    font-family: "Acme", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+}
+
+.project-title {
+    font-family: "Acme", sans-serif;
+    background-color: black;
+    font-size: 2rem;
+    height: 3rem;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.repo-links {
+    font-family: "Acme", sans-serif;
+    background-color: black;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#header {
+    background-color: black;
+    width: 99vw;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#home-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 23vw;
+    height: 50px;
+}
+
+#about-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 23vw;
+    height: 50px;
+}
+
+#portfolio-button {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 35px;
+    width: 23vw;
+    height: 50px;
+}
+
+#home-button:hover {
+    width: 25vw;
+    height: 53px;
+}
+
+#about-button:hover {
+    width: 25vw;
+    height: 53px;
+}
+
+#portfolio-button:hover {
+    width: 25vw;
+    height: 53px;
+}
+
+#content {
+    grid-area: post;
+    height: auto;
+    width: 99vw;
+    background-image: linear-gradient(black, black), url(https://previews.dropbox.com/p/thumb/AAsQ_snDrB8tdP4-Z0DWTzq3gVWmDSEdjxpOi7ttY7oOhXrhZZR1ZbFQBB7GXU28oyAo9gpbcgc-iHvcuSiXsOwnjQsrHF00yBZi5n4Jm52t5yeITZcH1OaYhh8T36OY5L2H26BluBd-RgGiwAPvuMJMbwX84ytzJ_fGgPnW9LOvZTyEoUZm1dTNEJqHQzOKJ1xQTJrEvQlIeEhNWxJiewMZGlZQrjeSF2Wi8gvLoDRxcC0HRj2dzITydY9OpZoEDJueu59DrcIznu1dFA_ANgiDOx7QBK8zleQnRlSJG2Y4gNU6T6XeeIN7GSl7IrLxOYRPCaiP6UnEYnty7nrUXhLuz_QlnDucU1X8XoqiVrov9C1VoGj_Sk9w2UtX5b2_oAGpKsNX3DxDbFdb1NcGiuRhyvW30r8EreakWyEWdo7a72ZU752C8D0n-KvRY8C32Qw/p.jpeg?fv_content=true&size_mode=5);
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#about {
+    width: 65vw;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#about-me {
+    font-family: "Acme", sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.carousel {
+    width: 100%;
+} 
+
+#poster {
+    width: 75vw;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2.5s;
+}
+
+@keyframes slide {
+    0% {top:600px}
+    100% {top:300px}
+}
+

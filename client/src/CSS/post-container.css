@@ -1,0 +1,12 @@
+#post-container {
+    display: flex;
+    justify-content: center;
+}
+#post {
+    width: 50vw;
+    margin-top: 25px;
+}
+
+#right {
+    width: 30vw;
+}
